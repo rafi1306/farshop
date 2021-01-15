@@ -47,7 +47,7 @@ body {
 }
 
 #container #footer {
-    background-color: #1e5475;
+    background-color: #1e5474;
     padding: 10px;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .element-form span input[type="submit"] {
-    background-color: #1e5475;
+    background-color: #1e5474;
     border: none;
     color: white;
     font-size: 11px;
@@ -104,4 +104,12 @@ body {
 
 .element-form span input[type="submit"]:hover {
     background-color: orange;
+}
+
+.notif {
+    background-color: #1e5474;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
 }
