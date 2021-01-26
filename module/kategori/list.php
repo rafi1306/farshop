@@ -27,6 +27,7 @@
                         <a class='".BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
                     </td>
                 </tr>";
+            $no++;
         }
 
         echo "</table>";
