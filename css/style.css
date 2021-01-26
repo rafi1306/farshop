@@ -150,3 +150,54 @@ body {
     padding: 10px;
     background-color: white;
 }
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list tr.baris-title {
+    background-color: #e6e6e6;
+}
+
+.table-list tr th,
+.table-list tr td {
+    padding: 10px 7px;
+}
+
+.kolom-nomor {
+    width: 25px;
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+
+#frame-tambah {
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+.tombol-action {
+    background-color: #1e5474;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.tombol-action:hover {
+    background-color: orange;
+}
